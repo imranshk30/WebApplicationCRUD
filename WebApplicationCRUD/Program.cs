@@ -54,7 +54,7 @@ builder.Services.AddSwaggerGen(options =>
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         In = ParameterLocation.Header,
-        Description = "enter your JWT Access Token and say salam to laloo parsaad",
+        Description = "enter your JWT Access Token",
         Name = "Authorization",
         Type = SecuritySchemeType.Http,
         Scheme = "bearer"
